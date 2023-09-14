@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai', cursive;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 83%;
+    width:100%;
+    z-index: -1;
+   /* opacity: 0.4; */
+}
+img{
+    height: 70px;
+    width: 70px;
+    margin: 10px 34px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 20px;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+#navbar ul li a:hover{
+    color: black;
+    font-size: 1.9rem;
+    transition: 0.5s;
+   
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    color: black;
+    
+    padding: 3px 200px;
+}
+#home::before{
+    content: "";
+    background: url(img/Background.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 80px;
+    left:0px;
+    height: 560px;
+    width:100%;
+    z-index: -1;
+   
+}
+#home p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.h-primary{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+}
+#home button{
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 20px;
+    cursor: pointer;
+}
+/* End of Home Section */
+
+/* Services Section */
+
+#main h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.card {
+    width: 23%;
+    height: 100%;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 10px;
+}
+
+
+.image img {
+    width: 80%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/*End of  Services Section */
+
+
+
+/* Menu's Section */
+
+
+#Menues h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.main1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: lightgoldenrodyellow;
+}
+.card {
+    width: 32%;
+    height: 100%;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 10px;
+}
+
+
+.image img {
+    width: 80%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+/* End of Menu's Section */
+
+/* Contact-us Section */
+
+.row{
+    padding: 20px 10%;
+    display: flex;
+}
+.left{
+    flex-basis: 35%;
+}
+.right{
+    flex-basis: 60%;
+}
+.left h1{
+    font-size: 3rem;
+    
+    margin-top: 40px;
+}
+.left p{
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.left p i{
+    
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-links{
+    margin-top: 30px;
+}
+.social-links a{
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+.social-links .button{
+    display: block;
+    background-color: #fff000;
+  border-radius: 30px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 11px;
+  width: 50%;
+  border: 0;
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+.button-32 {
+    background-color: #fff000;
+    border-radius: 30px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 6px 11px;
+    width: 20%;
+    border: 0;
+    font-size: 16px;
+    margin-top: 10px;
+    
+  }
+
+  
+/* End of Contact-us Section */
+
+/* footer section styling */
+footer{
+    margin-top: 20px;
+    background: black;
+    padding: 15px 23px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+footer span a{
+    color: yellow;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+
+
+
